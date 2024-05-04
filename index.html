@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Самостійна робота №2.2</title>
+</head>
+
+<body>
+    <h1 class="title">Самостійна робота №2.2</h1>
+    <p class="subtitle">Виконала: студентка групи ІПЗ-21-301, <br>Кас'янова Поліна Євгеніївна</p>
+    <div class="examples">
+        <h2 class="name">1. CSS Контур</h2>
+        <h3>1.1. CSS Стиль контуру</h3>
+        <p class="dotted">Цятковий контур</p>
+        <p class="dashed">Пунктирний контур</p>
+        <p class="solid">Суцільний контур</p>
+        <p class="double">Подвійний контур</p>
+        <p class="groove">Рифлений контур. Ефект залежить від значення кольору контуру</p>
+        <p class="ridge">Ребристий контур. Ефект залежить від значення кольору контуру</p>
+        <p class="inset">Внутрішній контур. Ефект залежить від значення кольору контуру</p>
+        <p class="outset">Зовнішній контур. Ефект залежить від значення кольору контуру</p>
+        <h3>1.2. CSS Ширина контуру</h3>
+        <p class="ex1">Тонкий контур</p>
+        <p class="ex2">Середній контур</p>
+        <p class="ex3">Товстий контур</p>
+        <p class="ex4">Контур завтовшки в 4px</p>
+        <h3>1.3. CSS Колір контуру</h3>
+        <p class="ex5">Суцільний червоний контур</p>
+        <p class="ex6">Цятковий синій контур</p>
+        <p class="ex7">Зовнішній сірий контур</p>
+        <h3>1.4. Інвертувати колір</h3>
+        <p class="ex8">Суцільний інвертований контур</p>
+        <h3>1.5. CSS Скорочена властивість контуру</h3>
+        <p class="ex9">Пунктирний контур</p>
+        <p class="ex10">Цятковий червоний контур</p>
+        <p class="ex11">Суцільний 5px жовтий контур</p>
+        <p class="ex12">Товстий ребристий рожевий контур</p>
+        <h3>1.6. CSS Outline Offset</h3>
+        <p class="ex13">Контур цього параграфу складає 15 пікселів за межами межі</p>
+        <h2 class="name">2. CSS Текст</h2>
+        <h3>2.1. Колір тексту</h3>
+        <p class="ex14">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque in est laudantium veritatis
+            nobis ipsum porro quaerat consequatur exercitationem ut. Fuga possimus iusto corrupti vel delectus suscipit
+            sed odit repellendus.</p>
+        <p class="ex15">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem in nihil ipsam fuga eveniet
+            quibusdam nostrum sed. In quidem atque eum tenetur aut! Quia eveniet unde ipsa odio necessitatibus porro.
+        </p>
+        <h3>2.2. Колір тексту та колір фону</h3>
+        <p class="ex16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias dolores eligendi fugit
+            quibusdam facilis. Nisi adipisci sit ducimus, possimus, qui facere nemo illo expedita, est officia
+            consequatur eligendi molestias.</p>
+        <p class="ex17">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse fugiat dolores, nesciunt quaerat
+            optio eum maiores asperiores rem tempore quo cumque nihil neque quibusdam inventore facere placeat nobis
+            fugit veritatis.</p>
+        <p class="ex18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quos adipisci atque quaerat, neque
+            perferendis vero cumque repudiandae exercitationem, iusto, amet incidunt tempore libero recusandae ipsum
+            quidem? Iste, recusandae sed?</p>
+        <h3>2.3. CSS Вирівнювання тексту</h3>
+        <p class="ex19">Текст 1 (center)</p>
+        <p class="ex20">Текст 2 (left)</p>
+        <p class="ex21">Текст 3 (right)</p>
+        <h3>2.4. Text Align Last / Вирівняти останній текст</h3>
+        <p>text-align-last: right:</p>
+        <p class="ex22">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+            pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+        <p>text-align-last: center:</p>
+        <p class="ex23">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+            pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+        <p>text-align-last: justify:</p>
+        <p class="ex24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+            pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+        <h3>2.5. Напрямок тексту</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut soluta aperiam laboriosam eligendi reiciendis
+            quas magni ut fugiat asperiores sit iste nihil, tenetur repudiandae, molestiae nulla quo, a tempore enim.
+        </p>
+        <p class="ex25">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut soluta aperiam laboriosam eligendi
+            reiciendis quas magni ut fugiat asperiores sit iste nihil, tenetur repudiandae, molestiae nulla quo, a
+            tempore enim.</p>
+        <h3>2.6. Вертикальне вирівнювання</h3>
+        <p>Це <img src="./img/w3schools_logo.gif" alt="W3Schools" width="270" height="50"> зображення з вирівнюванням за
+            замовчуванням.</p><br>
+        <p>Це <img class="ex26" src="./img/w3schools_logo.gif" alt="W3Schools" width="270" height="50"> зображення із
+            вирівнюванням по верхньому краю.</p><br>
+        <p>Це <img class="ex27" src="./img/w3schools_logo.gif" alt="W3Schools" width="270" height="50"> зображення з
+            вирівнюванням посередині.</p><br>
+        <p>Це <img class="ex28" src="./img/w3schools_logo.gif" alt="W3Schools" width="270" height="50"> зображення з
+            вирівнюванням унизу.</p>
+        <h3>2.7. Декоративна лінія до тексту</h3>
+        <p class="ex29">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur et minima,
+            asperiores harum autem veniam dolor rerum excepturi vel vitae, non, fugiat cumque exercitationem numquam
+            necessitatibus ipsam! Ea, velit!</p>
+        <p class="ex30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex31">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex32">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <h3>2.8. Колір для декоративної лінії</h3>
+        <p class="ex33">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur et minima,
+            asperiores harum autem veniam dolor rerum excepturi vel vitae, non, fugiat cumque exercitationem numquam
+            necessitatibus ipsam! Ea, velit!</p>
+        <p class="ex34">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex35">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex36">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <h3>2.9. Стиль для декоративної лінії</h3>
+        <p class="ex37">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur et minima,
+            asperiores harum autem veniam dolor rerum excepturi vel vitae, non, fugiat cumque exercitationem numquam
+            necessitatibus ipsam! Ea, velit!</p>
+        <p class="ex38">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex39">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex41">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex42">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <h3>2.10. Товщина декоративної лінії</h3>
+        <p class="ex43">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex44">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex45">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <p class="ex46">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur officia dolores, molestiae
+            atque numquam mollitia voluptatem facere dolorum quasi saepe officiis in enim, illo, eius quo beatae optio
+            nobis a!</p>
+        <h3>2.11. Трансформація тексту</h3>
+        <p class="ex47"> text-transform: uppercase</p>
+        <p class="ex48"> text-transform: lowercase</p>
+        <p class="ex49">text-transform: capitalize</p>
+        <h3>2.12. Відступ тексту</h3>
+        <p class="ex50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ad corporis magni unde
+            libero! Illo officia consectetur explicabo! Quos odio, veniam magni molestias voluptas nam iste fugit
+            voluptate cumque eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur autem
+            perspiciatis nihil quam, minima deserunt alias totam consectetur incidunt accusamus nisi optio deleniti rem
+            repellendus dolorum ducimus facilis mollitia amet. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nisi perferendis officiis dolorum, ex doloribus cumque. Molestias quasi corrupti provident iusto, iure
+            aliquam porro odio non. Ipsum iusto soluta consequuntur quam? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Facere, neque odit! Cum eius hic fuga dicta sunt dolorem quos, omnis, dolor, rerum
+            corrupti at natus sapiente similique exercitationem id error.</p>
+        <h3>2.13. Міжлітерна відстань</h3>
+        <p class="ex51">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit odio deserunt pariatur hic
+            dolorem. Voluptatem natus eaque obcaecati et corrupti iste commodi culpa delectus blanditiis non! In
+            obcaecati illum ea.</p>
+        <p class="ex52">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis error quidem omnis corrupti
+            consequuntur ullam provident dolorem architecto tenetur, reprehenderit accusamus atque dignissimos repellat
+            odit deleniti eligendi illo aspernatur doloribus.</p>
+        <h3>2.14. Висота рядка</h3>
+        <p class="ex53">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit odio deserunt pariatur hic
+            dolorem. Voluptatem natus eaque obcaecati et corrupti iste commodi culpa delectus blanditiis non! In
+            obcaecati illum ea. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus suscipit
+            delectus assumenda omnis beatae sed enim itaque voluptas excepturi unde nulla recusandae, iure vero possimus
+            tempore consequatur corrupti numquam voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Earum fugit placeat iure exercitationem doloribus itaque odio dolore dolor. Adipisci voluptatibus
+            dignissimos nobis molestiae sint. Earum quibusdam non qui voluptate perspiciatis?</p>
+        <p class="ex54">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis error quidem omnis corrupti
+            consequuntur ullam provident dolorem architecto tenetur, reprehenderit accusamus atque dignissimos repellat
+            odit deleniti eligendi illo aspernatur doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Mollitia doloribus tenetur voluptatibus tempore illum reprehenderit, eaque et voluptas dicta libero quia,
+            accusamus sint quidem maxime obcaecati, repudiandae veritatis nesciunt incidunt. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Cum saepe distinctio architecto ipsa. Corrupti, deserunt iste perspiciatis
+            fuga dolor rem consequuntur suscipit, eum, ipsam earum incidunt. Voluptatibus delectus neque ea.</p>
+        <h3>2.15. Інтервал між словами</h3>
+        <p class="ex55">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellat, sapiente amet
+            eveniet quo fugiat ex dolorum. Possimus dolor maxime earum corporis totam enim neque suscipit, ipsam
+            adipisci dignissimos quaerat.</p>
+        <p class="ex56">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, tempore quae maiores placeat
+            quas, autem accusantium dolor inventore sit id quo voluptatibus, magnam quia! Illum qui reiciendis
+            perferendis obcaecati aliquam?</p>
+        <h3>2.16. Пробіл</h3>
+        <p class="ex57">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam illum corrupti, explicabo
+            nesciunt repellendus voluptas. Perspiciatis maxime, provident esse quis earum pra labore distinctio quo.</p>
+        <h3>2.17. Тінь тексту</h3>
+        <h2 class="ex58">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <h2 class="ex59">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <h2 class="ex60">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <h2 class="name">3. CSS Шрифти</h2>
+        <h3>3.1. CSS властивість font-family</h3>
+        <p class="ex61">Цей пункт виділено шрифтом Times New Roman</p>
+        <p class="ex62">Цей пункт виділено шрифтом Arial</p>
+        <p class="ex63">Цей пункт виділено шрифтом Lucida Console</p>
+        <h3>3.2. Font-Style - Стиль шрифту</h3>
+        <p class="ex64">Це параграф у звичайному стилі</p>
+        <p class="ex65">Це параграф курсивом</p>
+        <p class="ex66">Це параграф похилим стилем</p>
+        <h3>3.3. Font-Weight - Товщина шрифту</h3>
+        <p class="ex67">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex68">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex69">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex70">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <h3>3.4. Font-Variant - Варіант шрифту</h3>
+        <p class="ex71">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex72">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <h3>3.5. Встановити розмір шрифту в пікселях</h3>
+        <p class="ex73">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex74">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex75">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <h3>3.6. Встановити розмір шрифту за допомогою Em</h3>
+        <p class="ex76">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex77">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex78">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <h3>3.7. CSS Скорочена властивість шрифту</h3>
+        <p class="ex79">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <p class="ex80">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto esse, ex suscipit unde magni
+            quasi quam perferendis laborum enim ad aut nemo rerum, quod ratione. Enim illo quaerat aliquam sint?</p>
+        <h2 class="name">4. CSS Макет - Властивість display</h2>
+        <h3>4.1. Перевизначити значення display за замовчуванням</h3>
+        <li class="ex81"><a href="#" target="_blank">HTML</a></li>
+        <li class="ex81"><a href="#" target="_blank">CSS</a></li>
+        <li class="ex81"><a href="#" target="_blank">JavaScript</a></li>
+        <h3>4.2. Використання width, max-width та margin: auto;</h3>
+        <div class="ex82">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ex maxime culpa. Consequatur
+            nulla hic corporis. Eveniet, voluptatem! Voluptatem, officiis magni repudiandae necessitatibus quia
+            dignissimos nam qui consequuntur officia repellat!</div>
+        <br>
+        <div class="ex83">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ex maxime culpa. Consequatur
+            nulla hic corporis. Eveniet, voluptatem! Voluptatem, officiis magni repudiandae necessitatibus quia
+            dignissimos nam qui consequuntur officia repellat!</div>
+        <h3>4.3. Властивість position</h3>
+        <div class="static">
+            Цей елемент div має position: static;
+        </div>
+        <br>
+        <div class="relative1">
+            Цей елемент div має position: relative;
+        </div>
+        <div class="fixed">
+            Цей елемент div має position: fixed;
+        </div>
+        <br>
+        <div class="relative2">Цей елемент div має position: relative;
+            <div class="absolute2">Цей елемент div має position: absolute;</div>
+        </div>
+        <br>
+        <div class="sticky">
+            Цей елемент div має position: sticky;
+        </div>
+        <h3>4.4. Елементи, що перекриваються</h3>
+        <h1>Це заголовок</h1>
+        <img class="ex84" src="./img/w3css.gif" width="100" height="140">
+        <p>Оскільки зображення має z-index -1, воно буде розташовано за текстом, тобто текст буде знаходитись зверху
+            зображення</p>
+        <h2 class="name">5. CSS Макет - Overflow</h2>
+        <h3>5.1. Overflow: visible</h3>
+        <div class="ex85">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde ea temporibus ad
+            consequuntur cumque fuga officia est, aspernatur minus soluta possimus. Inventore quam asperiores iusto
+            illum voluptatibus tempore blanditiis.</div>
+        <br><br><br><br><br><br><br>
+        <h3>5.2. Overflow: hidden</h3>
+        <div class="ex86">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde ea temporibus ad
+            consequuntur cumque fuga officia est, aspernatur minus soluta possimus. Inventore quam asperiores iusto
+            illum voluptatibus tempore blanditiis.</div>
+        <h3>5.3. Overflow: scroll</h3>
+        <div class="ex87">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde ea temporibus ad
+            consequuntur cumque fuga officia est, aspernatur minus soluta possimus. Inventore quam asperiores iusto
+            illum voluptatibus tempore blanditiis.</div>
+        <h3>5.4. Overflow: auto</h3>
+        <div class="ex88">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde ea temporibus ad
+            consequuntur cumque fuga officia est, aspernatur minus soluta possimus. Inventore quam asperiores iusto
+            illum voluptatibus tempore blanditiis.</div>
+        <h3>5.5. Overflow-x та overflow-y</h3>
+        <div class="ex89">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde ea temporibus ad
+            consequuntur cumque fuga officia est, aspernatur minus soluta possimus. Inventore quam asperiores iusto
+            illum voluptatibus tempore blanditiis.</div>
+        <h2 class="name">6. CSS Макет - float та clear</h2>
+        <h3>6.1. Float: right</h3>
+        <p><img class="ex90" src="./img/pineapple.jpg" alt="Float Right"
+                style="width:170px;height:170px;margin-left:15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+            lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue
+            eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare
+            eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+            dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+            turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed
+            dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Corporis accusantium quidem maiores eveniet voluptates facilis possimus fugit
+            quibusdam labore eaque nisi, quasi maxime sequi, repellat dicta ad quae excepturi placeat. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Odio explicabo, maxime earum expedita ex quo ullam veniam nam dolore
+            numquam. Exercitationem quasi explicabo illo fuga saepe fugiat vel, accusantium rem.lamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus
+            gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras
+            ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            accusantium quidem maiores eveniet voluptates facilis possimus fugit quibusdam labore eaque nisi, quasi
+            maxime sequi, repellat dicta ad quae excepturi placeat. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Odio explicabo, maxime earum expedita ex quo ullam veniam nam dolore numquam. Exercitationem quasi
+            explicabo illo fuga saepe fugiat vel, accusantium rem.</p>
+        <h3>6.2. Float: left</h3>
+        <p><img class="ex91" src="./img/pineapple.jpg" alt="Float Right"
+                style="width:170px;height:170px;margin-left:15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+            lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue
+            eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare
+            eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+            dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+            turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed
+            dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Corporis accusantium quidem maiores eveniet voluptates facilis possimus fugit
+            quibusdam labore eaque nisi, quasi maxime sequi, repellat dicta ad quae excepturi placeat. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Odio explicabo, maxime earum expedita ex quo ullam veniam nam dolore
+            numquam. Exercitationem quasi explicabo illo fuga saepe fugiat vel, accusantium rem.lamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus
+            gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras
+            ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            accusantium quidem maiores eveniet voluptates facilis possimus fugit quibusdam labore eaque nisi, quasi
+            maxime sequi, repellat dicta ad quae excepturi placeat. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Odio explicabo, maxime earum expedita ex quo ullam veniam nam dolore numquam. Exercitationem quasi
+            explicabo illo fuga saepe fugiat vel, accusantium rem.</p>
+        <br>
+        <h3>6.3. No float</h3>
+        <p><img class="ex92" src="./img/pineapple.jpg" alt="Float Right"
+                style="width:170px;height:170px;margin-left:15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+            lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue
+            eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare
+            eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+            dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+            turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed
+            dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Corporis accusantium quidem maiores eveniet voluptates facilis possimus fugit
+            quibusdam labore eaque nisi, quasi maxime sequi, repellat dicta ad quae excepturi placeat. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Odio explicabo, maxime earum expedita ex quo ullam veniam nam dolore
+            numquam. Exercitationem quasi explicabo illo fuga saepe fugiat vel, accusantium rem.lamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus
+            gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras
+            ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            accusantium quidem maiores eveniet voluptates facilis possimus fugit quibusdam labore eaque nisi, quasi
+            maxime sequi, repellat dicta ad quae excepturi placeat. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Odio explicabo, maxime earum expedita ex quo ullam veniam nam dolore numquam. Exercitationem quasi
+            explicabo illo fuga saepe fugiat vel, accusantium rem.</p>
+        <h3>6.4. Властивість clear</h3>
+        <h2>Без clear</h2>
+        <div class="ex93">div1</div>
+        <div class="ex94">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum pariatur quidem error libero
+            voluptatum, quod reprehenderit consequuntur excepturi eius eligendi molestiae totam numquam cumque,
+            laboriosam iure doloribus, sit ipsum architecto.</div>
+        <br><br><br>
+        <h2>З clear</h2>
+        <div class="ex95">div3</div>
+        <div class="ex96">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut a mollitia iusto tenetur aut eum
+            quod quidem natus dignissimos reprehenderit, autem cumque expedita adipisci repellat voluptatem quibusdam
+            perferendis obcaecati consequuntur?</div>
+        <h3>6.5. Сітка блоків / Блоки однакової ширини</h3>
+        <div class="clearfix">
+            <div class="box" style="background-color:#bbb">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos accusantium quam fuga unde saepe quasi
+                    earum adipisci, ipsum, nostrum consequuntur amet tempore itaque mollitia rem sed. Placeat, odio!
+                    Perferendis, officiis!</p>
+            </div>
+            <div class="box" style="background-color:#ccc">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos accusantium quam fuga unde saepe quasi
+                    earum adipisci, ipsum, nostrum consequuntur amet tempore itaque mollitia rem sed. Placeat, odio!
+                    Perferendis, officiis!</p>
+            </div>
+            <div class="box" style="background-color:#ddd">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos accusantium quam fuga unde saepe quasi
+                    earum adipisci, ipsum, nostrum consequuntur amet tempore itaque mollitia rem sed. Placeat, odio!
+                    Perferendis, officiis!</p>
+            </div>
+        </div>
+        <h3>6.6. Зображення одне за одним</h3>
+        <div class="clearfix2">
+            <div class="img-container">
+                <img src="./img/img_5terre.jpg" alt="Italy" style="width:100%">
+            </div>
+            <div class="img-container">
+                <img src="./img/img_forest.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="img-container">
+                <img src="./img/img_mountains.jpg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+        <h2 class="name" style="text-align: center;">CSS ПРОДВИНУТИЙ</h2>
+        <h2 class="name">1. CSS 2D Трансформації</h2>
+        <h3>1.1. Метод translate()</h3>
+        <div class="example1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h3>1.2. Метод rotate()</h3>
+        <div class="example2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <div class="example3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h3>1.3. Метод scale()</h3>
+        <div class="example4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h3>1.4. Метод scaleX()</h3>
+        <div class="example5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h3>1.5. Метод scaleY()</h3>
+        <div class="example6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h3>1.6. Метод skewX()</h3>
+        <div class="example7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <div class="example8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h3>1.7. Метод skewY()</h3>
+        <div class="example9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <div class="example10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h3>1.8. Метод matrix()</h3>
+        <div class="example11">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <div class="example12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <div class="example13">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit neque repudiandae
+            magni reiciendis ducimus esse ad optio distinctio praesentium numquam? Natus, numquam ducimus veritatis
+            corrupti</div>
+        <h2 class="name">2. CSS 3D Трансформації</h2>
+        <h3>2.1. Метод rotateX()</h3>
+        <div class="example14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque non, assumenda
+            molestias modi reiciendis laudantium! Dolore nostrum obcaecati</div>
+        <div class="example15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque non, assumenda
+            molestias modi reiciendis laudantium! Dolore nostrum obcaecati</div>
+        <h3>2.2. Метод rotateY()</h3>
+        <div class="example16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque non, assumenda
+            molestias modi reiciendis laudantium! Dolore nostrum obcaecati</div>
+        <div class="example17">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque non, assumenda
+            molestias modi reiciendis laudantium! Dolore nostrum obcaecati</div>
+        <h3>2.3. Метод rotateZ()</h3>
+        <div class="example18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque non, assumenda
+            molestias modi reiciendis laudantium! Dolore nostrum obcaecati</div>
+        <div class="example19">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque non, assumenda
+            molestias modi reiciendis laudantium! Dolore nostrum obcaecati</div>
+        <br><br><br><br><br>
+        <h2 class="name">3. CSS Стилізація зображень</h2>
+        <h3>3.1. Округлі зображення</h3>
+        <img class="example20" src="./img/paris.jpg" alt="Париж" width="300" height="300">
+        <img class="example21" src="./img/paris.jpg" alt="Париж" width="300" height="300">
+        <h3>3.2. Мініатюрні зображення</h3>
+        <img class="example22" src="./img/paris.jpg" alt="Париж" style="width:150px">
+        <a target="_blank" href="./img/paris.jpg">
+            <img class="example23" src="./img/paris.jpg" alt="Париж" style="width:150px">
+        </a>
+        <h3>3.3. Адаптивні зображення</h3>
+        <img class="example24" src="./img/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+        <h3>3.4. Центрування зображення</h3>
+        <img class="example25" src="./img/paris.jpg" alt="Париж" style="width:500px">
+        <h3>3.5. Polaroid зображення / Карточки</h3>
+        <div class="polaroid">
+            <img src="./img/img_5terre.jpg" alt="5 Terre" style="width:100%">
+            <div class="container-polaroid">
+                <p>Cinque Terre</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="./img/lights600x400.jpg" alt="Північне сяйво" style="width:100%">
+            <div class="container-polaroid">
+                <p>Північне сяйво</p>
+            </div>
+        </div>
+        <h3>3.6. Прозоре зображення</h3>
+        <img class="example26" src="./img/img_forest.jpg" alt="Forest" width="170" height="100">
+        <p>opacity 0.2</p>
+        <img class="example27" src="./img/img_forest.jpg" alt="Forest" width="170" height="100">
+        <p>opacity 0.5</p>
+        <img class="example28" src="./img/img_forest.jpg" alt="Forest" width="170" height="100">
+        <p>opacity 1 (за замовчуванням)</p>
+        <h3>3.7. Текст на зображенні</h3>
+        <div class="example29">
+            <img class="example30" src="./img/img_5terre_wide.jpg" alt="Cingue Terre">
+            <div class="example31">Внизу зліва</div>
+            <div class="example32">Вгорі зліва</div>
+            <div class="example33">Вгорі справа</div>
+            <div class="example34">Внизу справа</div>
+            <div class="example35">В центрі</div>
+        </div>
+        <h3>3.8. Фільтри зображень</h3>
+        <div style="max-width: 800px; margin-bottom: 940px;">
+            <img class="filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="blur filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="brightness filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="contrast filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="grayscale filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="huerotate filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="invert filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="opacity filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="saturate filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="sepia filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+            <img class="shadow filter" src="./img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        </div>
+        <br>
+        <h3>3.9. Накладення при наведенні на зображення</h3>
+        <div class="container-image">
+            <img src="./img/img_avatar3.png" alt="Аватар" class="image1" style="width:100%">
+            <div class="middletext">
+                <div class="text1">John Doe</div>
+            </div>
+        </div>
+        <h3>3.10. Відобразити зображення</h3>
+        <img class="example36" src="./img/paris.jpg" alt="Париж" width="400" height="300">
+        <h2 class="name">4. CSS Відбиття зображення</h2>
+        <h3>3.1. Приклад</h3>
+        <img class="example37" src="./img/img_tree.png">
+        <h3>3.2. CSS Відбиття з градієнтом</h3>
+        <img class="example38" src="./img/img_tree.png">
+        <h2 class="name">5. CSS Властивість object-fit</h2>
+        <h3>5.1. Всі значення CSS властивості object-fit</h3>
+        <h2>Немає object-fit:</h2>
+        <img src="./img/paris.jpg" alt="Париж" style="width:200px;height:300px">
+        <p>object-fit: fill (за замовчуванням):</p>
+        <img class="fill" src="./img/paris.jpg" alt="Париж" style="width:200px;height:300px">
+        <p>object-fit: contain:</p>
+        <img class="contain" src="./img/paris.jpg" alt="Париж" style="width:200px;height:300px">
+        <p>object-fit: cover:</p>
+        <img class="cover" src="./img/paris.jpg" alt="Париж" style="width:200px;height:300px">
+        <p>object-fit: scale-down:</p>
+        <img class="scale-down" src="./img/paris.jpg" alt="Париж" style="width:200px;height:300px">
+        <p>object-fit: none:</p>
+        <img class="none" src="./img/paris.jpg" alt="Париж" style="width:200px;height:300px">
+        <h2 class="name">6. CSS Властивість object-position</h2>
+        <h3>6.1. Використання властивості object-position</h3>
+        <img class="example39" src="./img/paris.jpg" alt="Париж" width="400" height="300">
+        <h2 class="name">7. CSS Box-sizing - Розмір блоку</h2>
+        <h3>7.1. Без CSS властивості box-sizing</h3>
+        <div class="example40">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et assumenda eaque hic dolorum
+            itaque est provident debitis aperiam! Odit omnis, unde maxime ad explicabo corporis id commodi placeat
+            reiciendis enim.</div>
+        <br>
+        <div class="example41">Lorem, ipsum dolor sit amet coaceat reiciendis enim.</div>
+        <h3>7.2. Із CSS властивістю box-sizing</h3>
+        <div class="example42">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et assumenda eaque hic dolorum
+            itaque est provident debitis aperiam! Odit omnis, unde maxime ad explicabo corporis id commodi placeat
+            reiciendis enim.</div>
+        <br>
+        <div class="example43">Lorem, ipsum dolor sit amet coaceat reiciendis enim.</div>
+        <h2 class="name">8. CSS Медіа запити</h2>
+        <h3>8.1. Медіа-запити. Простий приклад</h3>
+        <div class="wrapper">
+            <div id="leftsidebar">
+                <ul id="menulist">
+                    <li class="menuitem">Menu-item 1</li>
+                    <li class="menuitem">Menu-item 2</li>
+                    <li class="menuitem">Menu-item 3</li>
+                    <li class="menuitem">Menu-item 4</li>
+                    <li class="menuitem">Menu-item 5</li>
+                </ul>
+            </div>
+
+            <div id="main">
+                <h1>Змініть розмір вікна браузера, щоб побачити ефект!</h1>
+                <p>У цьому прикладі показано меню, яке переміщатиметься зліва від сторінки, якщо область перегляду
+                    має ширину 480 пікселів чи ширше. Якщо розмір області перегляду менший за 480 пікселів, меню буде
+                    поверх вмісту.</p>
+            </div>
+        </div>
+        <h2 class="name">9. CSS Flexbox</h2>
+        <h3>9.1. Flexbox елементи</h3>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h2 class="name">10. CSS Гнучкий (flex) контейнер</h2>
+        <h3>10.1. Властивість flex-direction: column</h3>
+        <div class="flex-container2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.2. Властивість flex-direction: column-reverse</h3>
+        <div class="flex-container3">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.3. Властивість flex-direction: row</h3>
+        <div class="flex-container4">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.4. Властивість flex-direction: row-reverse</h3>
+        <div class="flex-container5">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.5. Властивість flex-wrap: wrap</h3>
+        <div class="flex-container6">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.6. Властивість flex-wrap: nowrap</h3>
+        <div class="flex-container7">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.7. Властивість flex-wrap: wrap-reverse</h3>
+        <div class="flex-container8">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.8. Властивість justify-content: center</h3>
+        <div class="flex-container9">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.9. Властивість justify-content: flex-start</h3>
+        <div class="flex-container10">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.10. Властивість justify-content: flex-end</h3>
+        <div class="flex-container11">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.11. Властивість justify-content: space-around</h3>
+        <div class="flex-container12">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.12. Властивість justify-content: space-between</h3>
+        <div class="flex-container13">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <h3>10.13. Властивість align-items: center</h3>
+        <div class="flex-container14">
+            <div style="padding: 30px;">1</div>
+            <div style="padding: 40px;">2</div>
+            <div style="padding: 50px;">3</div>
+        </div>
+        <h3>10.14. Властивість align-items: flex-start</h3>
+        <div class="flex-container15">
+            <div style="padding: 30px;">1</div>
+            <div style="padding: 40px;">2</div>
+            <div style="padding: 50px;">3</div>
+        </div>
+        <h3>10.15. Властивість align-items: flex-end</h3>
+        <div class="flex-container16">
+            <div style="padding: 30px;">1</div>
+            <div style="padding: 40px;">2</div>
+            <div style="padding: 50px;">3</div>
+        </div>
+        <h3>10.16. Властивість align-items: stretch</h3>
+        <div class="flex-container17">
+            <div style="padding: 30px;">1</div>
+            <div style="padding: 40px;">2</div>
+            <div style="padding: 50px;">3</div>
+        </div>
+        <h3>10.17. Властивість align-items: baseline</h3>
+        <div class="flex-container18">
+            <div style="padding: 30px;">1</div>
+            <div style="padding: 40px;">2</div>
+            <div style="padding: 50px;">3</div>
+        </div>
+        <h3>10.18. Властивість align-content: space-between</h3>
+        <div class="flex-container19">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.19. Властивість align-content: space-around</h3>
+        <div class="flex-container20">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.20. Властивість align-content: stretch</h3>
+        <div class="flex-container21">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.21. Властивість align-content: center</h3>
+        <div class="flex-container22">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.22. Властивість align-content: flex-start</h3>
+        <div class="flex-container23">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.23. Властивість align-content: flex-end</h3>
+        <div class="flex-container24">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <h3>10.24. Ідеальне центрування</h3>
+        <div class="flex-container25">
+            <div></div>
+        </div>
+        <h2 class="name">11. CSS Flex Елементи</h2>
+        <h3>11.1. Дочірні елементи</h3>
+        <div class="flex-container26">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <h3>11.2. Властивість order</h3>
+        <div class="flex-container27">
+            <div style="order: 3">1</div>
+            <div style="order: 2">2</div>
+            <div style="order: 4">3</div>
+            <div style="order: 1">4</div>
+        </div>
+        <h3>11.3. Властивість flex-grow</h3>
+        <div class="flex-container28">
+            <div style="flex-grow: 1">1</div>
+            <div style="flex-grow: 1">2</div>
+            <div style="flex-grow: 8">3</div>
+        </div>
+        <h3>11.4. Властивість flex-shrink</h3>
+        <div class="flex-container29">
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-shrink: 0">3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+        <h3>11.5. Властивість flex-basis</h3>
+        <div class="flex-container30">
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-basis: 200px">3</div>
+            <div>4</div>
+        </div>
+        <h3>11.6. Властивість align-self</h3>
+        <div class="flex-container31">
+            <div>1</div>
+            <div>2</div>
+            <div style="align-self: center">3</div>
+            <div>4</div>
+        </div>
+    </div>
+</body>
+
+</html>
